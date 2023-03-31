@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<redis-dd clusterName="xxx">
+
+<redisKey name="count" regex="[0-9]+_count" type="hash" description=""></redisKey>
+<redisKey name="countExpiry" regex="[0-9]+_expirytime" type="hash" description=""></redisKey>
+<redisKey name="countExecution" regex="[0-9]+_executionTime" type="hash" description=""></redisKey>
+
+<redisKey name="countExecution" regex="[0-9]+_accessibleUsers" type="set" description=""></redisKey>
+<redisKey name="countExecution" regex="[0-9]+_departmentViews" type="set" description=""></redisKey>
+<redisKey name="countExecution" regex="[0-9]+_StarredViews" type="set" description=""></redisKey>
+
+<redisKey name="countExecution" regex="[0-9]+_isAllDepViewEnabled" type="String" description=""></redisKey>
+<redisKey name="countExecution" regex="[0-9]+_canQueryLVCount" type="String" description=""></redisKey>
+
+
+
+</redis-dd>
