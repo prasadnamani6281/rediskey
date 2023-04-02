@@ -6,6 +6,9 @@ import javax.xml.bind.Unmarshaller;
 
 //$Id$
 
+//xmlmain class name added
+
+
 public class xmlmain {
 	
 	public static void main(String[] args) {
@@ -13,6 +16,7 @@ public class xmlmain {
 		TypeRegexMapper mapper=new TypeRegexMapper();
 		
 		try {
+			
 			
 			JAXBContext jaxbContext=JAXBContext.newInstance(Redisdd.class);
 			Unmarshaller unmarshaller=jaxbContext.createUnmarshaller();
@@ -44,7 +48,5 @@ public class xmlmain {
 			System.out.println("Not Matched!!!!");
 		}
 		
-	
-
   }
 }
